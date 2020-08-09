@@ -43,4 +43,4 @@ jobs:
       run : npm i -g surge
       
     - name : deploy to surge
-      run : surge ./build react-quiz-app.surge.sh --token ${{secrets.SURGE_TOKEN}}
+      run : surge ./build kuiz-app.surge.sh --token ${{secrets.SURGE_TOKEN}}
